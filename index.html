@@ -388,7 +388,28 @@
       </div>
     </section>
 
-    <section class="section" id="demostracion"><div class="section-inner"><h2>Demostración técnica: agente empresarial</h2><div class="about-card" style="margin-top:16px"><p>Prototipo de conciliación de facturas y cobros con reglas deterministas, validación de datos y trazabilidad en SQLite. Un ejemplo sintético identifica cuatro resultados distintos:</p><ul style="padding-left:24px;margin:12px 0"><li>Factura conciliada.</li><li>Cobro parcial.</li><li>Factura pendiente de cobro.</li><li>Cobro sin factura asociada.</li></ul><p>El prototipo está en fase de validación; no se atribuyen ahorros ni resultados de clientes reales. Las implantaciones se evalúan por exactitud, tiempo y revisión humana.</p><p style="margin-top:12px"><a class="btn btn-primary" href="#contacto">Consultar una demostración</a></p></div></div></section>
+    <section class="section" id="demostracion">
+  <div class="section-inner">
+    <h2>Demo de conciliación de facturas y cobros</h2>
+    <div class="about-card" style="margin-top:16px">
+      <p>Ejemplo con datos sintéticos. El agente agrupa los importes por referencia y compara lo facturado con lo cobrado.</p>
+      <div style="overflow-x:auto;margin:12px 0">
+        <table style="width:100%;text-align:left;border-spacing:12px">
+          <caption>Informe de ejemplo</caption>
+          <thead><tr><th scope="col">Referencia</th><th scope="col">Facturado</th><th scope="col">Cobrado</th><th scope="col">Resultado</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">F-001</th><td>100 €</td><td>100 €</td><td>Conciliada</td></tr>
+            <tr><th scope="row">F-002</th><td>150 €</td><td>100 €</td><td>Cobro parcial. Faltan 50 €.</td></tr>
+            <tr><th scope="row">F-003</th><td>75 €</td><td>0 €</td><td>Factura pendiente de cobro</td></tr>
+            <tr><th scope="row">F-004</th><td>0 €</td><td>10 €</td><td>Cobro sin factura asociada</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Las tres incidencias quedan identificadas por referencia para que el equipo de administración pueda revisarlas.</p>
+      <p style="margin-top:12px"><a class="btn btn-primary" href="#contacto">Consultar una demostración</a></p>
+    </div>
+  </div>
+</section>
     <!-- PROCESO + SOBRE MÍ -->
     <section class="section">
       <div class="section-inner two-column">
