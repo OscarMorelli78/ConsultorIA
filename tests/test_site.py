@@ -28,6 +28,11 @@ class SiteTests(unittest.TestCase):
         self.assertNotIn("tuemail@empresa.com", text)
         self.assertNotIn("TU_ID_AQUI", text)
         self.assertNotIn("tu-usuario.github.io", text)
+    def test_professional_contact(self):
+        text = Path("index.html").read_text(encoding="utf-8")
+        self.assertIn('href="https://www.linkedin.com/in/oscarmorelli/"', text)
+        self.assertIn("Contactar por LinkedIn", text)
+        self.assertNotIn("vía de contacto directo está pendiente", text)
     def test_portfolio_claims(self):
         text = Path("index.html").read_text(encoding="utf-8")
         self.assertNotIn("+240k", text)
