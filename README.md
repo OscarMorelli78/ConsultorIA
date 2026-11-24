@@ -1,6 +1,14 @@
 # ConsultorIA
-Servicios de consultoría en IA / IT
 
+Portfolio de consultoría en IA y automatización empresarial de Oscar Morelli.
 
-## Estado y publicación
-Sitio estático de consultoría. Pendiente de verificar contacto real, completar HTML, sustituir cifras no acreditadas por casos reproducibles y revisar accesibilidad. El despliegue no demuestra captación de clientes.
+- Contacto profesional: https://www.linkedin.com/in/oscarmorelli/
+- Web: https://oscarmorelli78.github.io/ConsultorIA/
+- Código: HTML y CSS estáticos; sin backend ni formularios propios.
+- Pruebas: `python -m unittest discover -s tests -v`.
+
+## Publicación
+El despliegue se realiza mediante GitHub Pages desde la rama principal. Revisar el resultado visual y los enlaces externos antes de cada publicación. Los casos de aplicación son ilustrativos salvo que se adjunten evidencias; no se garantizan ahorros ni conversiones.
+
+## Privacidad
+No hay seguimiento propio. La página carga tipografías e iconos desde proveedores externos y enlaza a servicios de terceros.
