@@ -33,6 +33,13 @@ class SiteTests(unittest.TestCase):
         self.assertIn('href="https://www.linkedin.com/in/oscarmorelli/"', text)
         self.assertIn("Contactar por LinkedIn", text)
         self.assertNotIn("vía de contacto directo está pendiente", text)
+    def test_discovery_and_accessibility(self):
+        text = Path("index.html").read_text(encoding="utf-8")
+        self.assertIn('name="description"', text)
+        self.assertIn('rel="canonical" href="https://oscarmorelli78.github.io/ConsultorIA/"', text)
+        self.assertIn('href="#contenido"', text)
+        self.assertIn('id="demostracion"', text)
+        self.assertIn('prefers-reduced-motion', text)
     def test_portfolio_claims(self):
         text = Path("index.html").read_text(encoding="utf-8")
         self.assertNotIn("+240k", text)
