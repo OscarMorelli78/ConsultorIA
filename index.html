@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Consultoría IA para negocios B2B — Oscar Morelli</title>
+  <meta name="description" content="Consultoría de IA y automatización de procesos para pymes y empresas B2B en Almería y en remoto. Diagnóstico, prototipos y validación de resultados." />
+  <link rel="canonical" href="https://oscarmorelli78.github.io/ConsultorIA/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Oscar Morelli | IA y automatización empresarial" />
+  <meta property="og:description" content="Automatización verificable, integración de IA y mejora de procesos para pymes." />
+  <meta property="og:url" content="https://oscarmorelli78.github.io/ConsultorIA/" />
 
   <!-- Tipografías Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -220,10 +226,17 @@
     @media (max-width: 640px) {
       .services-grid, .cases-grid { grid-template-columns: 1fr; }
     }
+      :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    .skip-link { position: absolute; top: -100px; left: 12px; padding: 12px; background: #fff; color: #000; z-index: 100; }
+    .skip-link:focus { top: 12px; }
+    section[id] { scroll-margin-top: 100px; }
+    #contacto a { margin-bottom: 8px; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
   </style>
 </head>
 
 <body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
 <div class="page">
 
   <!-- NAV -->
@@ -235,12 +248,12 @@
       </div>
       <div class="nav-cta">
         <a href="#servicios">Servicios</a>
-        <a href="#contacto" class="primary">Agenda una sesión</a>
+        <a href="#contacto" class="primary">Contacto y proyectos</a>
       </div>
     </div>
   </header>
 
-  <main>
+  <main id="contenido">
 
     <!-- HERO -->
     <section class="section hero">
@@ -254,22 +267,22 @@
           </h1>
 
           <p class="hero-subtitle">
-            Acompaño a dirección y equipos a identificar, priorizar e implementar casos de uso de IA con retorno claro en 90 días. Sin hype, sin humo y sin proyectos eternos.
+            Acompaño a dirección y equipos a identificar, priorizar e implementar casos de uso de IA con objetivos de retorno medibles. Sin hype, sin humo y sin proyectos eternos.
           </p>
 
           <div>
-            <span class="badge"><i class="ri-magic-line"></i> IA aplicada a negocio</span>
-            <span class="badge"><i class="ri-bar-chart-line"></i> Impacto medible</span>
-            <span class="badge"><i class="ri-shield-check-line"></i> Adopción real</span>
-            <span class="badge"><i class="ri-shield-user-line"></i> Gobernanza y riesgos</span>
+            <span class="badge"><i class="ri-magic-line" aria-hidden="true"></i> IA aplicada a negocio</span>
+            <span class="badge"><i class="ri-bar-chart-line" aria-hidden="true"></i> Impacto medible</span>
+            <span class="badge"><i class="ri-shield-check-line" aria-hidden="true"></i> Adopción real</span>
+            <span class="badge"><i class="ri-shield-user-line" aria-hidden="true"></i> Gobernanza y riesgos</span>
           </div>
 
           <div style="margin-top: 20px;">
-            <a class="btn btn-primary" href="mailto:tuemail@empresa.com">
-              <i class="ri-calendar-line"></i> Solicitar sesión estratégica
+            <a class="btn btn-primary" href="#contacto">
+              <i class="ri-calendar-line" aria-hidden="true"></i> Contacto profesional
             </a>
             <a class="btn btn-ghost" href="#casos">
-              <i class="ri-play-circle-line"></i> Ver casos y resultados
+              <i class="ri-play-circle-line" aria-hidden="true"></i> Ver aplicaciones
             </a>
           </div>
 
@@ -281,15 +294,15 @@
         <!-- Tarjeta lateral -->
         <div>
           <div class="about-card">
-            <h3 style="font-size: 15px; margin-bottom: 6px;">Impacto típico en proyectos de IA aplicada</h3>
+            <h3 style="font-size: 15px; margin-bottom: 6px;">Objetivos de la automatización</h3>
 
             <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">
-              Datos orientativos basados en proyectos reales.
+              Objetivos que se acuerdan y se miden antes y después de la implantación.
             </p>
 
-            <p><strong>-35%</strong> tiempo operativo · Automatización de procesos</p>
-            <p><strong>+18%</strong> conversión · Mejor cualificación y seguimiento</p>
-            <p><strong>+240k€</strong> ahorro anual · Optimización de equipos y licencias</p>
+            <p><strong>Objetivo:</strong> reducir tiempo operativo · Automatización de procesos</p>
+            <p><strong>Objetivo:</strong> mejorar conversión · Mejor cualificación y seguimiento</p>
+            <p><strong>Objetivo:</strong> reducir costes · Optimización de equipos y licencias</p>
 
             <p style="font-size: 12px; color: var(--text-muted); margin-top: 12px;">
               Diseño contigo una hoja de ruta pragmática: empezamos pequeño, medimos impacto y escalamos solo lo que funciona.
@@ -340,16 +353,16 @@
     <section class="section" id="casos">
       <div class="section-inner">
 
-        <h2 style="font-size: 24px; margin-bottom: 12px;">De la idea al impacto medible</h2>
+        <h2 style="font-size: 24px; margin-bottom: 12px;">Aplicaciones y medición del impacto</h2>
         <p style="color: var(--text-muted); max-width: 420px; margin-bottom: 28px;">
-          Ejemplos de resultados típicos al aplicar IA de forma pragmática y alineada con negocio.
+          Ejemplos de aplicación y métricas que deben validarse en cada implantación.
         </p>
 
         <div class="cases-grid">
 
           <div class="case-card">
             <h3 class="case-title">Copilot comercial para cualificación de leads</h3>
-            <p><strong>+21%</strong> conversión a oportunidad en 4 meses.</p>
+            <p><strong>Objetivo:</strong> mejorar conversión a oportunidad.</p>
             <p style="color: var(--text-muted); font-size: 13px;">
               Automatización de análisis, priorización y primeros borradores de respuesta personalizados.
             </p>
@@ -357,7 +370,7 @@
 
           <div class="case-card">
             <h3 class="case-title">Automatización de reporting operativo</h3>
-            <p><strong>-40%</strong> tiempo invertido en informes recurrentes.</p>
+            <p><strong>Objetivo:</strong> reducir tiempo invertido en informes recurrentes.</p>
             <p style="color: var(--text-muted); font-size: 13px;">
               Generación asistida de informes y resúmenes ejecutivos basados en datos internos.
             </p>
@@ -375,6 +388,7 @@
       </div>
     </section>
 
+    <section class="section" id="demostracion"><div class="section-inner"><h2>Demostración técnica: agente empresarial</h2><div class="about-card" style="margin-top:16px"><p>Prototipo de conciliación de facturas y cobros con reglas deterministas, validación de datos y trazabilidad en SQLite. Un ejemplo sintético identifica cuatro resultados distintos:</p><ul style="padding-left:24px;margin:12px 0"><li>Factura conciliada.</li><li>Cobro parcial.</li><li>Factura pendiente de cobro.</li><li>Cobro sin factura asociada.</li></ul><p>El prototipo está en fase de validación; no se atribuyen ahorros ni resultados de clientes reales. Las implantaciones se evalúan por exactitud, tiempo y revisión humana.</p><p style="margin-top:12px"><a class="btn btn-primary" href="#contacto">Consultar una demostración</a></p></div></div></section>
     <!-- PROCESO + SOBRE MÍ -->
     <section class="section">
       <div class="section-inner two-column">
@@ -432,4 +446,8 @@
 
             <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">
               Soy Oscar Morelli, consultor con gran experiencia en estrategia digital e IA aplicada a negocio.
-              Ayudo a empresas B2B a tomar decisiones
+              Ayudo a empresas B2B a tomar decisiones con sistemas verificables y automatización de procesos.</p>
+<a href="https://github.com/OscarMorelli78">Consultar proyectos en GitHub</a>
+</div></aside></div></section>
+<section class="section" id="contacto"><div class="section-inner"><h2>Contacto profesional</h2><p>¿Quieres automatizar procesos, evaluar un proyecto de IA o hablar de una colaboración profesional? Contacta conmigo a través de LinkedIn.</p><div style="margin-top:20px"><a class="btn btn-primary" href="https://www.linkedin.com/in/oscarmorelli/" target="_blank" rel="noopener noreferrer">Contactar por LinkedIn</a> <a class="btn btn-ghost" href="https://github.com/OscarMorelli78">Ver portfolio técnico</a></div></div></section>
+</main><footer class="section"><div class="section-inner"><p>Oscar Morelli · Almería, España · Consultoría y colaboración en remoto.</p><p style="margin-top:8px;color:var(--text-muted)">Este sitio no incluye formularios ni herramientas de seguimiento propias. Las fuentes externas y los enlaces a LinkedIn y GitHub están sujetos a las políticas de sus proveedores.</p></div></footer></div></body></html>
