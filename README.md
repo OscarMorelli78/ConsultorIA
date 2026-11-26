@@ -11,6 +11,7 @@ Portfolio de consultoría en IA y automatización empresarial de Oscar Morelli.
 
 - [Ledger64](https://github.com/OscarMorelli78/Ledger64): open-source invoice auditing, purchase cost comparison and financial governance; Python, Docker, MIT. [Web internacional](https://oscarmorelli78.github.io/Ledger64/) · [v0.1.0](https://github.com/OscarMorelli78/Ledger64/releases/tag/v0.1.0).
 - [fsd-neural-watchdog](https://github.com/OscarMorelli78/fsd-neural-watchdog): prototipo experimental C++20 de evaluación de umbrales, no validado para control de vehículos ni aplicaciones críticas.
+- [IA_Consulting — AI FinOps & Governance Router](https://github.com/OscarMorelli78/IA_Consulting): diseño de arquitectura para control de costes LLM y aislamiento de tenants; incluye una demo de caché exacta, no un middleware validado en producción.
 - [Todos los repositorios públicos](https://github.com/OscarMorelli78?tab=repositories).
 
 ## Publicación
